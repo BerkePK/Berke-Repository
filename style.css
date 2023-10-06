@@ -1,0 +1,118 @@
+body {
+    font-family: 'Mooli', sans-serif;
+    background-color: #000000;
+    text-align: center;
+    color: #f0f0f0;
+    background-repeat: no-repeat;
+    
+}
+
+h1 {
+    font-family: 'Caveat', 'cursive';
+    color: #ff00eee4;
+    font-size: 45px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.hoverable:hover {
+    background-color: rgb(255, 0, 251);
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.image {
+    width: 100px;
+    height: center;
+}
+
+
+.ALLSpiderman {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgba(255, 0, 242, 0.737);
+    margin: 10px;
+    position: relative;
+    left: 30px;
+    top: -1200px;
+    transition: transform 0.5s ease;
+}
+
+.ALLSpiderman:hover {
+    border-color: #ff00f2; 
+    transform: scale(1.2); 
+    transition: all 0.3s ease;
+}
+
+
+.SwingSP {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgba(255, 0, 242, 0.737);
+    margin: 10px;
+    position: relative;
+    left: 650px;
+    top: -880px;
+    transition: transform 0.5s ease;
+}
+
+.SwingSP:hover {
+    border-color: #ff00f2; 
+    transform: scale(1.3); 
+    transition: all 0.3s ease;
+}
+
+.Spooderman {
+    width: 300px;
+    height: auto;
+    border: 2px solid rgba(255, 0, 242, 0.737);
+    margin: 10px;
+    position: relative;
+    left: -580px;
+    top: -500px;
+    transition: transform 0.5s ease;
+}
+
+.Spooderman:hover {
+    border-color: #ff00f2; 
+    transform: scale(1.2); 
+    transition: all 0.3s ease;
+}
+
+.Spiderman {
+    width: 300px;
+    height: auto;
+    transition: transform 0.5s ease; 
+}
+
+.Spiderman:hover {
+    transform: scale(1.3);
+    
+}
+
+.Annihilate {
+    width: 350px;
+    height: auto;
+    margin: 10px;
+    position: relative;
+    left: -500px;
+    top: 30px;
+    transition: transform 0.5s ease;
+}
+
+.Annihilate:hover {
+    transform: scale(1.3); 
+    transition: all 0.3s ease;
+}
+
+
+#grad1 {
+    background-image: conic-gradient(black, purple, black);
+    
+  }
